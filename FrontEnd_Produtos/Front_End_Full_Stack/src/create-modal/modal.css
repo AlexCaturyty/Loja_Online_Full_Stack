@@ -1,0 +1,103 @@
+.modal-overflow {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-overflow .modal-body {
+    background-color: white;
+    padding: 24px;
+    width: 80%;
+    max-width: 400px; 
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-overflow .modal-body h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.modal-overflow .modal-body .input-container {
+    width: 100%;
+}
+
+.modal-overflow .modal-body input {
+    padding: 12px;
+    border: 2px solid #c6c5c5c5;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.modal-overflow .modal-body label {
+    color: #242424;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.modal-overflow .modal-body .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.modal-overflow .modal-body .btn-secondary {
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.1s linear 0.1s;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modal-overflow .modal-body .btn-secondary:hover {
+    background-color: #3a44f8;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overflow .modal-body .btn-secondary {
+    background-color: #00a6ff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.1s linear 0.1s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.modal-overflow .modal-body .btn-secondary:hover {
+    background-color: #0055ff;
+}
+
+@media screen and (max-width: 320px) {
+    .modal-overflow .modal-body h2 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+}
