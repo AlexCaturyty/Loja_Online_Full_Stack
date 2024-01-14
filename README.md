@@ -1,6 +1,6 @@
 # Aplicação de Gerenciamento de Coleção de Itens
 
-Este projeto é um teste técnico de desenvolvimento Full Stack, com o objetivo de criar uma aplicação web completa para gerenciar uma coleção de itens (produtos). O desenvolvimento envolve tanto o front-end, utilizando React com Typescript, quanto o back-end, implementado em Java Spring Boot.
+Este projeto é um desenvolvimento Full Stack, com o objetivo de criar uma aplicação web completa para gerenciar uma coleção de itens (produtos). O desenvolvimento envolve tanto o front-end, utilizando React com Typescript, quanto o back-end, implementado em Java Spring Boot.
 
 ## Parte 1: Front-end (React com Typescript)
 
